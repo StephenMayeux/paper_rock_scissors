@@ -43,7 +43,7 @@ module PaperRockScissors
   class Human
 
     def get_move
-      print "Choose (P) for paper, (R) for rock, or (S) for scissors. >>"
+      print "Choose (P) for paper, (R) for rock, or (S) for scissors. >> "
       move = gets.chomp.upcase
       check_move(move)
     end
